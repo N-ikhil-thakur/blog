@@ -1,0 +1,15 @@
+{% extends 'base.html'%}
+
+{% block content%}
+
+{% for blogs in blogs_list%}
+
+<div class="post-entry">
+    <h2 class="title"><a href="{% url 'post_detail' blogs.pk%}">{{blogs.title}}</a></h2>
+    <p class="body">{{blogs.body}}</p>
+    <sub class="author">Author : {{blogs.author}}</sub>
+</div>
+
+{% endfor %}
+
+{% endblock content%}

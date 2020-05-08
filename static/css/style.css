@@ -1,0 +1,57 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+
+header {
+    border-bottom: 1px solid red;
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+header h1 a {
+    color: red;
+    text-decoration:none;
+}
+header h1 a:hover {
+    color: blue;
+}
+
+.nav-left {
+    margin-right: auto;
+}
+
+.nav-right {
+    display: flex;
+    padding-top: 2rem;
+}
+
+.post-entry {
+    margin-bottom: 2rem;
+    background: linear-gradient(135deg,rgb(236, 5, 167),rgb(129, 5, 129),rgb(53, 2, 53));
+    color: white;
+    padding: 10px;
+    border-radius:10px;
+    /* white-space:nowrap; */
+}
+
+.post-entry h2 {
+    margin: 0.5rem 0;
+}
+
+.post-entry h2 a,
+.post-entry h2 a:visited {
+    color: rgb(204, 224, 22);
+    text-decoration: none;
+}
+
+.post-entry p {
+    margin: 0 ;
+    font-weight: 400;
+}
+
+.post-entry h2 a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
